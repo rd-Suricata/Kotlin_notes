@@ -38,6 +38,7 @@ class calculatorApp : AppCompatActivity() {
                 tvResult.text = "El resultado es: ${result}"
             }
         }
+
         // btnClean.setOnClickListener {
         //    firstNumber.text.clear()
         //    secondNumber.text.clear()

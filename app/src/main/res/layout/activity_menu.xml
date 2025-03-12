@@ -43,4 +43,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:text="Calculator"
         />
+    <Button
+        android:id="@+id/btnCalculatorS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btnCalculator2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Spinner"
+        />
+    <Button
+        android:id="@+id/btnComberter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btnCalculatorS"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Comberter"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

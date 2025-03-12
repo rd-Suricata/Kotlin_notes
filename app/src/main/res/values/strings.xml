@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">klotin_notes</string>
+    <string-array name="opciones_array">
+        <item>Suma</item>
+        <item>Resta</item>
+        <item>Multiplicacion</item>
+        <item>Division</item>
+    </string-array>
+    <string-array name="options_cal">
+        <item>km</item>
+        <item>hm</item>
+        <item>dam</item>
+        <item>m</item>
+        <item>dm</item>
+        <item>cm</item>
+        <item>mm</item>
+        <item>pulgada</item>
+        <item>pie</item>
+        <item>yarda</item>
+    </string-array>
 </resources>

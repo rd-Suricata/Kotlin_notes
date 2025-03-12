@@ -11,6 +11,8 @@ import com.example.klotin_notes.firstapp.FirstAppActivity
 import com.example.klotin_notes.imccalculator.ImcCalculatorActivity
 import com.example.klotin_notes.simpleCalculator.calculator2App
 import com.example.klotin_notes.simpleCalculator.calculatorApp
+import com.example.klotin_notes.simpleCalculator.converterApp
+import com.example.klotin_notes.simpleCalculator.spinnerCalculator
 
 class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,10 +28,14 @@ class MenuActivity : AppCompatActivity() {
         val btnIMC = findViewById<Button>(R.id.btnIMC)
         val btnCalculator = findViewById<Button>(R.id.btnCalculator)
         val btnCalculator2 = findViewById<Button>(R.id.btnCalculator2)
+        val btnCalculatorS = findViewById<Button>(R.id.btnCalculatorS)
+        val btnComberter = findViewById<Button>(R.id.btnComberter)
         btnGreet.setOnClickListener { navigateToGreet() }
         btnIMC.setOnClickListener { navigateToIMC() }
         btnCalculator.setOnClickListener { navigateToCalculator() }
         btnCalculator2.setOnClickListener { navigateToCalculator2() }
+        btnCalculatorS.setOnClickListener { navigateToCalculatorS() }
+        btnComberter.setOnClickListener { navigateToComberter() }
 
     }
     private fun navigateToGreet() {
@@ -46,6 +52,14 @@ class MenuActivity : AppCompatActivity() {
     }
     private fun navigateToCalculator2() {
         val intent = Intent(this,calculator2App::class.java)
+        startActivity(intent)
+    }
+    private fun navigateToCalculatorS() {
+        val intent = Intent(this,spinnerCalculator::class.java)
+        startActivity(intent)
+    }
+    private fun navigateToComberter() {
+        val intent = Intent(this,converterApp::class.java)
         startActivity(intent)
     }
 }
