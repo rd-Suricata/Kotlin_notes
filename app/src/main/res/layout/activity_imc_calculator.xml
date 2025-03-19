@@ -25,7 +25,6 @@
         android:layout_width="0dp"
         android:layout_height="150dp"
         app:cardCornerRadius="18dp"
-        app:cardBackgroundColor="@color/background_component"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/viewMale"

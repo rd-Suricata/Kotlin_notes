@@ -105,6 +105,5 @@
         app:layout_constraintTop_toBottomOf="@id/btnCal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="Salir"
-        />
+        android:text="Salir"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
